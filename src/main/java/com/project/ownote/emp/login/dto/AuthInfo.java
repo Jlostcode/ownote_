@@ -17,4 +17,6 @@ public class AuthInfo {
     private String emp_email;
     private int grade_num;
     private int dept_num;
+
+
 }

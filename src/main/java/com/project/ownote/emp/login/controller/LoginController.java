@@ -36,7 +36,11 @@ public class LoginController {
             System.out.println("------------------------------" + authInfo);
             session.setAttribute("authInfo", authInfo);
             Emp emp = empMapper.selectByEmail(email);
-            return "success";
+            if(authInfo.getEmp_name() == "error999") {
+                return "false";
+            }else {
+                return "success";
+            }
     }
 
     @RequestMapping(value = "/logout", method = RequestMethod.GET)

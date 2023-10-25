@@ -50,11 +50,12 @@
             <div class="button-effect">
                 <a class="effect effect-1" th:href="@{'/club/modify?clubboard_id=' + ${dto.clubboard_id}}">게시글수정</a>
             </div>
-            <div class="button-effect">
-                <a class="effect effect-1" href="#" id="delete-link" th:data-clubboard-id='${dto.clubboard_id}'>게시글삭제</a>
-            </div>
+                <div class="button-effect">
+                    <a href="#" class="effect effect-1" id="delete-link" th:data-clubboard-id='${dto.clubboard_id}'>게시글삭제</a>
+                </div>
+            </th:block>
         </div>
-    </th:block>
+
 
     <!--    </th:block>-->
 

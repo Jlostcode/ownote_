@@ -80,8 +80,10 @@ body {
 }
 
 .side-bar ul > li:hover > a {
-    background-color: #61adf6;
+    background-color: #8dbae5;
     border-bottom: 1px solid #999;
+    border-top: 1px solid #999;
+    border-radius:0 15px 15px 0;
 }
 
 .side-bar > ul > li:hover > ul {
@@ -91,9 +93,10 @@ body {
     top: 0;
     left: 100%;
     width: 100%;
+    border-radius:0 15px 15px 0;
 }
 
-.side-bar {
+    .side-bar {
     border-radius: 20px;
     transform: translate(calc(var(--side-bar-width) * -0.8), 0);  /* X축 이동, Y축 고정 */
     transition: .5s;

@@ -71,12 +71,15 @@ public class MusicContestController {
         System.out.println("-----------------------------------------"+dto);
         likeDto.setEmp_id(authInfo.getEmp_id());
         System.out.println("987987987897987989"+likeDto);
-        if(dto == null) {
-            likeService.increaseLike(musiccontest_id);
-            likeService.insertLike(likeDto);
-            model.addAttribute("dto", dto);
-            model.addAttribute("authInfo", authInfo);
-            return "redirect:/musicContest/list";
+        LikeDto likeEmpDto = likeService.selectLikeEmp(authInfo.getEmp_id());
+        System.out.println("ㄷ재ㅑㅓㄱ재ㅑ러내어래" + likeEmpDto);
+
+         if (likeEmpDto == null) {
+                likeService.increaseLike(musiccontest_id);
+                likeService.insertLike(likeDto);
+                model.addAttribute("dto", dto);
+                model.addAttribute("authInfo", authInfo);
+                return "redirect:/musicContest/list";
         } else {
             return "redirect:/musicContest/list?error=1";
         }

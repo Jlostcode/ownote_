@@ -50,7 +50,7 @@
                   <li><a th:href="@{/annual/write}">연차 신청 </a></li>
                   <li><a th:href="@{/annual/anndata}">연차 확인</a></li>
                   <li th:if="${authInfo != null}">
-                      <a th:if="${authInfo.grade_num >= 3}" th:href="@{annual/list}">연차 승인</a>
+                      <a th:if="${authInfo.grade_num >= 3}" th:href="@{/annual/list}">연차 승인</a>
 
                   </li>
                   <li><a th:href="@{#}">연차 수정 신청</a></li>
@@ -60,8 +60,9 @@
               <a th:href="@{/board/boardmain}">게시판</a>
               <ul>
                   <li><a th:href="@{/board/noticeList}">회사뉴스 및 공지</a></li>
-                  <li><a th:href="@{/board/forumList}">자유게시판</a></li>
+                  <li><a th:href="@{/board/forumList}">자유 게시판</a></li>
                   <li><a th:href="@{/board/qaList}">사내시스템 / F&Q</a></li>
+                  <li><a th:href="@{/musicContest/list}">이벤트 게시판</a></li>
               </ul>
           </li>
           <li>

@@ -79,19 +79,22 @@ body, ul, li {
     position: relative;
   }
 
-  .side-bar ul > li:hover > a {
-    background-color: #61adf6;
-    border-bottom: 1px solid #999;
-  }
+.side-bar ul > li:hover > a {
+  background-color: #8dbae5;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+  border-radius:0 15px 15px 0;
+}
 
-  .side-bar > ul > li:hover > ul {
-    display: block;
-    position: absolute;
-    background-color: #61adf6;
-    top: 0;
-    left: 100%;
-    width: 100%;
-  }
+.side-bar > ul > li:hover > ul {
+  display: block;
+  position: absolute;
+  background-color: #61adf6;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  border-radius:0 15px 15px 0;
+}
   
   .side-bar {
     border-radius: 20px;

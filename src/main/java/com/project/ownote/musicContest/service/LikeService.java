@@ -2,6 +2,7 @@ package com.project.ownote.musicContest.service;
 
 import com.project.ownote.musicContest.dao.MusicContestMapper;
 import com.project.ownote.musicContest.dto.LikeDto;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -21,4 +22,7 @@ public class LikeService {
     public LikeDto selectLike(int musiccontest_id){
         return musicContestMapper.selectLike(musiccontest_id);
     }
+    public LikeDto selectLikeEmp(int emp_id) {
+        return musicContestMapper.selectLikeEmp(emp_id);
+    };
 }
