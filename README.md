@@ -7,29 +7,31 @@
 
 ## 목차
   - [개요](#개요) 
-  - [게임 설명](#게임-설명)
-  - [게임 플레이 방식](#게임-플레이-방식)
+  - [사용 기술 및 스택](#사용 기술 및 스택)
+  - [설명](#설명)
 
 ## 개요
-- 프로젝트 이름: SosoVillage 🏠
-- 프로젝트 지속기간: 2022.02-2022.06
-- 개발 엔진 및 언어: Unity & C#
-- 멤버: 팀 정현지(이정현, 김민정, 김민지)
+<img src="https://github.com/Jlostcode/ownote_/assets/133706327/e6dbbc27-6d98-40c0-9013-4ed989744e76" alt="이미지 대체 텍스트" width="100" height="100"> <br>
+- 프로젝트 이름: Ownote 🏠
+- 프로젝트 지속기간: 2023.09.18 - 2023.10.20
+- 개발 언어: Java
+- 멤버: 팀장 (김주찬) 팀원 (홍민호, 박다영, 조하은, 정희찬)
 
-## 게임 설명
-|![image](https://user-images.githubusercontent.com/66003567/216818254-18683c3f-af80-4009-b2cc-35bdee865f23.png)|![image](https://user-images.githubusercontent.com/66003567/216818272-8749569b-b217-4572-9738-32b0058459f4.png)|
-|:---:|:---:|
-|시작 화면|사용자 정보 화면|
+## 사용 기술 및 스택
+<div>
+<img src="https://img.shields.io/badge/java-D7DF01?style=flat&logo=java&logoColor=white"/>  
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/thymeleaf-3178C6?style=flat&logo=thymeleaf&logoColor=white"/></br>
+<img src="https://img.shields.io/badge/Ajax-61DAFB?style=flat&logo=Ajax&logoColor=white"/>
+<img src="https://img.shields.io/badge/BootStrap-000000?style=flat&logo=BootStrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/springboot-764ABC?style=flat&logo=springboot&logoColor=white"/></br>
+<img src="https://img.shields.io/badge/MySql-06B6D4?style=flat&logo=MySql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MyBatis-08088A?style=flat&logo=MyBatis&logoColor=white"/>
+<img src="https://img.shields.io/badge/apachetomcat-74DF00?style=flat&logo=apachetomcat&logoColor=white"/>
 
-긴장감, 압박감과 같이 일상에서 느낄 수 있는 부정적인 감정에서 벗어나 편안한 분위기 속에서 즐길 수 있는 힐링 게임을 만들고자 소소빌리지(SosoVillage)를 개발하게 되었습니다.<br>
-- 모험과 힐링을 동시에 즐겨라! ⚔️<br>
-소소빌리지에선 모험과 힐링을 동시에 즐길 수 있다는 특징이 있습니다. 기본 홈(Home)맵에서는 작물도 기르고 요리도 할 수 있으며, 숲(Forest)에서는 나무, 두더지 등의 몬스터와 싸우고 낚시를 통해 물고기를 얻을 수도 있습니다. 이 과정을 통해 캐릭터는 생산물을 얻고 성장할 수 있습니다. 
-- 다양한 미니게임을 즐겨라! 🎯<br>
-각 스테이지별로 다양한 종류의 미니게임을 통해 하나의 게임에서 여러 재미를 향유할 수 있습니다. 이 게임의 목적은 플레이어의 지속되는 생활을 위한 물품을 얻는 것에 있습니다. 
-- 자유를 즐겨라! 🏄🏻<br>
-캐릭터는 높은 자율성을 가집니다. 특정 일에 대해 강제성을 부여하지 않고 오직 캐릭터의 활동만으로 게임이 진행됩니다. 예를 들어 낚시에 흥미를 느낀다면, 낚시에 빠져들어 최강의 어부가 될 수 있습니다. 어떠한 제약도 소소빌리지에서는 존재하지 않습니다.
-- 초보자도 누구나! 👶<br>
-높은 자율성이 존재하는 만큼 처음 플레이하게 되었을 때 낯섦을 느낄 수 있습니다. 소소빌리지는 모든 게임 화면에서 설명을 기재하였으며 언제든지 궁금한 경우 열람할 수 있도록 하였습니다. 더불어 모든 상황에 대한 경고를 해주어, 예기치 못한 일을 방지할 수 있습니다.
+</div>
 
 ## 게임 플레이 방식
 - 캐릭터 이동 방법
