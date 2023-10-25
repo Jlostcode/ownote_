@@ -20,6 +20,7 @@
 
 - [시연 영상](https://blog.naver.com/jlostcode/223246375546)
 
+
 ## 기술스택
 <div>
 <img src="https://img.shields.io/badge/java-D7DF01?style=flat&logo=java&logoColor=white"/>  
@@ -65,3 +66,5 @@
 5. JPA: JPA 내에서 Entity를 만들어 create문 없이 데이터 베이스의 직접적으로 테이블을 생성하였으며, JPA 내의 기본적으로 등록된 CRUD 로직을 사용하여 Query문 작성을 생략하여 코드의 가독성을 높였습니다.
 
 6. WYSIWYG : 웹 텍스트 에디터, ‘Summer Note’ 인터페이스를 사용해 사용자의 편리한 텍스트 편집 기능을 추가하였습니다.
+
+
